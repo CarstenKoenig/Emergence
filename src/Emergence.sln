@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{75E9CEB9-13AE-4DE9-9401-CBDFCB74EBE6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Emergence", "Emergence\Emergence.fsproj", "{3677089A-1129-47B6-B928-BF3E4538E855}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{EEE57555-EA37-4A97-8C3D-758777E3F11F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Emergence.Examples.Movies", "Emergence.Examples.Movies\Emergence.Examples.Movies.fsproj", "{5B866D5F-D54E-4518-B354-CA8B7D50B76E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3677089A-1129-47B6-B928-BF3E4538E855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3677089A-1129-47B6-B928-BF3E4538E855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3677089A-1129-47B6-B928-BF3E4538E855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3677089A-1129-47B6-B928-BF3E4538E855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B866D5F-D54E-4518-B354-CA8B7D50B76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B866D5F-D54E-4518-B354-CA8B7D50B76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B866D5F-D54E-4518-B354-CA8B7D50B76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B866D5F-D54E-4518-B354-CA8B7D50B76E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3677089A-1129-47B6-B928-BF3E4538E855} = {75E9CEB9-13AE-4DE9-9401-CBDFCB74EBE6}
+		{5B866D5F-D54E-4518-B354-CA8B7D50B76E} = {EEE57555-EA37-4A97-8C3D-758777E3F11F}
+	EndGlobalSection
+EndGlobal
